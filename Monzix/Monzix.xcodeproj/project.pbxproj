@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0FDD8C1C0C31E500716923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FDD8B1C0C31E500716923 /* main.m */; };
+		3F0FDD8F1C0C31E500716923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FDD8E1C0C31E500716923 /* AppDelegate.m */; };
+		3F0FDD921C0C31E500716923 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FDD911C0C31E500716923 /* ViewController.m */; };
+		3F0FDD951C0C31E500716923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FDD931C0C31E500716923 /* Main.storyboard */; };
+		3F0FDD971C0C31E500716923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FDD961C0C31E500716923 /* Assets.xcassets */; };
+		3F0FDD9A1C0C31E500716923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FDD981C0C31E500716923 /* LaunchScreen.storyboard */; };
+		3F0FDDA61C0C32E700716923 /* Playlist.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FDDA41C0C32E700716923 /* Playlist.xib */; settings = {ASSET_TAGS = (); }; };
+		3F0FDDA81C0C36D800716923 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FDDA71C0C36D800716923 /* data.plist */; settings = {ASSET_TAGS = (); }; };
+		3F0FDDB71C0C495B00716923 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FDDB61C0C495B00716923 /* Playlist.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F0FDD871C0C31E500716923 /* Monzix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monzix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0FDD8B1C0C31E500716923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F0FDD8D1C0C31E500716923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F0FDD8E1C0C31E500716923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F0FDD901C0C31E500716923 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F0FDD911C0C31E500716923 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F0FDD941C0C31E500716923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0FDD961C0C31E500716923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0FDD991C0C31E500716923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0FDD9B1C0C31E500716923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0FDDA41C0C32E700716923 /* Playlist.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Playlist.xib; sourceTree = "<group>"; };
+		3F0FDDA71C0C36D800716923 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		3F0FDDB51C0C495B00716923 /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		3F0FDDB61C0C495B00716923 /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0FDD841C0C31E500716923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0FDD7E1C0C31E500716923 = {
+			isa = PBXGroup;
+			children = (
+				3F0FDDA71C0C36D800716923 /* data.plist */,
+				3F0FDDA11C0C32C100716923 /* Playlist */,
+				3F0FDD891C0C31E500716923 /* Monzix */,
+				3F0FDD881C0C31E500716923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0FDD881C0C31E500716923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0FDD871C0C31E500716923 /* Monzix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0FDD891C0C31E500716923 /* Monzix */ = {
+			isa = PBXGroup;
+			children = (
+				3F0FDD8D1C0C31E500716923 /* AppDelegate.h */,
+				3F0FDD8E1C0C31E500716923 /* AppDelegate.m */,
+				3F0FDD901C0C31E500716923 /* ViewController.h */,
+				3F0FDD911C0C31E500716923 /* ViewController.m */,
+				3F0FDD931C0C31E500716923 /* Main.storyboard */,
+				3F0FDD961C0C31E500716923 /* Assets.xcassets */,
+				3F0FDD981C0C31E500716923 /* LaunchScreen.storyboard */,
+				3F0FDD9B1C0C31E500716923 /* Info.plist */,
+				3F0FDD8A1C0C31E500716923 /* Supporting Files */,
+			);
+			path = Monzix;
+			sourceTree = "<group>";
+		};
+		3F0FDD8A1C0C31E500716923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F0FDD8B1C0C31E500716923 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F0FDDA11C0C32C100716923 /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				3F0FDDA41C0C32E700716923 /* Playlist.xib */,
+				3F0FDDB51C0C495B00716923 /* Playlist.h */,
+				3F0FDDB61C0C495B00716923 /* Playlist.m */,
+			);
+			name = Playlist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0FDD861C0C31E500716923 /* Monzix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0FDD9E1C0C31E500716923 /* Build configuration list for PBXNativeTarget "Monzix" */;
+			buildPhases = (
+				3F0FDD831C0C31E500716923 /* Sources */,
+				3F0FDD841C0C31E500716923 /* Frameworks */,
+				3F0FDD851C0C31E500716923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monzix;
+			productName = Monzix;
+			productReference = 3F0FDD871C0C31E500716923 /* Monzix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0FDD7F1C0C31E500716923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Techmaster;
+				TargetAttributes = {
+					3F0FDD861C0C31E500716923 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 3F0FDD821C0C31E500716923 /* Build configuration list for PBXProject "Monzix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0FDD7E1C0C31E500716923;
+			productRefGroup = 3F0FDD881C0C31E500716923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0FDD861C0C31E500716923 /* Monzix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0FDD851C0C31E500716923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0FDD9A1C0C31E500716923 /* LaunchScreen.storyboard in Resources */,
+				3F0FDD971C0C31E500716923 /* Assets.xcassets in Resources */,
+				3F0FDD951C0C31E500716923 /* Main.storyboard in Resources */,
+				3F0FDDA81C0C36D800716923 /* data.plist in Resources */,
+				3F0FDDA61C0C32E700716923 /* Playlist.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0FDD831C0C31E500716923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0FDD921C0C31E500716923 /* ViewController.m in Sources */,
+				3F0FDD8F1C0C31E500716923 /* AppDelegate.m in Sources */,
+				3F0FDD8C1C0C31E500716923 /* main.m in Sources */,
+				3F0FDDB71C0C495B00716923 /* Playlist.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F0FDD931C0C31E500716923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0FDD941C0C31E500716923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0FDD981C0C31E500716923 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0FDD991C0C31E500716923 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0FDD9C1C0C31E500716923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F0FDD9D1C0C31E500716923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0FDD9F1C0C31E500716923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Monzix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.Monzix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F0FDDA01C0C31E500716923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Monzix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.Monzix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0FDD821C0C31E500716923 /* Build configuration list for PBXProject "Monzix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0FDD9C1C0C31E500716923 /* Debug */,
+				3F0FDD9D1C0C31E500716923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0FDD9E1C0C31E500716923 /* Build configuration list for PBXNativeTarget "Monzix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0FDD9F1C0C31E500716923 /* Debug */,
+				3F0FDDA01C0C31E500716923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0FDD7F1C0C31E500716923 /* Project object */;
+}
