@@ -13,9 +13,6 @@
 		3F0FDD951C0C31E500716923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FDD931C0C31E500716923 /* Main.storyboard */; };
 		3F0FDD971C0C31E500716923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FDD961C0C31E500716923 /* Assets.xcassets */; };
 		3F0FDD9A1C0C31E500716923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FDD981C0C31E500716923 /* LaunchScreen.storyboard */; };
-		3F0FDDA61C0C32E700716923 /* Playlist.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FDDA41C0C32E700716923 /* Playlist.xib */; settings = {ASSET_TAGS = (); }; };
-		3F0FDDA81C0C36D800716923 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FDDA71C0C36D800716923 /* data.plist */; settings = {ASSET_TAGS = (); }; };
-		3F0FDDB71C0C495B00716923 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FDDB61C0C495B00716923 /* Playlist.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +26,6 @@
 		3F0FDD961C0C31E500716923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0FDD991C0C31E500716923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F0FDD9B1C0C31E500716923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F0FDDA41C0C32E700716923 /* Playlist.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Playlist.xib; sourceTree = "<group>"; };
-		3F0FDDA71C0C36D800716923 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
-		3F0FDDB51C0C495B00716923 /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
-		3F0FDDB61C0C495B00716923 /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +42,6 @@
 		3F0FDD7E1C0C31E500716923 = {
 			isa = PBXGroup;
 			children = (
-				3F0FDDA71C0C36D800716923 /* data.plist */,
-				3F0FDDA11C0C32C100716923 /* Playlist */,
 				3F0FDD891C0C31E500716923 /* Monzix */,
 				3F0FDD881C0C31E500716923 /* Products */,
 			);
@@ -86,16 +77,6 @@
 				3F0FDD8B1C0C31E500716923 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3F0FDDA11C0C32C100716923 /* Playlist */ = {
-			isa = PBXGroup;
-			children = (
-				3F0FDDA41C0C32E700716923 /* Playlist.xib */,
-				3F0FDDB51C0C495B00716923 /* Playlist.h */,
-				3F0FDDB61C0C495B00716923 /* Playlist.m */,
-			);
-			name = Playlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,8 +139,6 @@
 				3F0FDD9A1C0C31E500716923 /* LaunchScreen.storyboard in Resources */,
 				3F0FDD971C0C31E500716923 /* Assets.xcassets in Resources */,
 				3F0FDD951C0C31E500716923 /* Main.storyboard in Resources */,
-				3F0FDDA81C0C36D800716923 /* data.plist in Resources */,
-				3F0FDDA61C0C32E700716923 /* Playlist.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +152,6 @@
 				3F0FDD921C0C31E500716923 /* ViewController.m in Sources */,
 				3F0FDD8F1C0C31E500716923 /* AppDelegate.m in Sources */,
 				3F0FDD8C1C0C31E500716923 /* main.m in Sources */,
-				3F0FDDB71C0C495B00716923 /* Playlist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
