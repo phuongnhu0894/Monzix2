@@ -24,11 +24,17 @@
 		3F31DBD81C114CE100D36C4D /* CassetteOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F31DBD61C114CE100D36C4D /* CassetteOrange.m */; };
 		3F31DBD91C114CE100D36C4D /* CassetteOrange.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F31DBD71C114CE100D36C4D /* CassetteOrange.xib */; };
 		6443FFE11C1484290036DD6F /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443FFE01C1484290036DD6F /* Song.m */; };
+		64DD522F1C1FD46D0057302B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DD522E1C1FD46D0057302B /* AVFoundation.framework */; };
+		64DD52311C1FD4780057302B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DD52301C1FD4780057302B /* MediaPlayer.framework */; };
+		64DD52361C1FD4C00057302B /* AZSoundItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DD52331C1FD4C00057302B /* AZSoundItem.m */; };
+		64DD52371C1FD4C00057302B /* AZSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DD52351C1FD4C00057302B /* AZSoundManager.m */; };
 		64E9D6A81C15921E002FDD8E /* search.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E9D6A61C15921E002FDD8E /* search.m */; };
 		64E9D6A91C15921E002FDD8E /* search.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E9D6A71C15921E002FDD8E /* search.xib */; };
 		64F228AE1C15C9A4005CD34E /* Song.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64F228AD1C15C9A4005CD34E /* Song.plist */; };
 		64F228B11C15CAE8005CD34E /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F228B01C15CAE8005CD34E /* DataManager.m */; };
-		64F228B41C15DD2D005CD34E /* PlaySong.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F228B31C15DD2D005CD34E /* PlaySong.m */; };
+		64F228B41C15DD2D005CD34E /* PlaySongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F228B31C15DD2D005CD34E /* PlaySongViewController.m */; };
+		64F2D9401C1F16BA001C0CE9 /* SongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F2D93F1C1F16BA001C0CE9 /* SongListViewController.m */; };
+		64F2D9441C1F23D4001C0CE9 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F2D9431C1F23D4001C0CE9 /* Playlist.m */; };
 		765B117F020D930FBA9647C7 /* Pods_Monzix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AD42558BFC1E6984223FE8 /* Pods_Monzix.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,14 +68,24 @@
 		5629606CE83ECC5C781FAAF7 /* Pods-Monzix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monzix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Monzix/Pods-Monzix.debug.xcconfig"; sourceTree = "<group>"; };
 		6443FFDF1C1484290036DD6F /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Song.h; path = Monzix/Song.h; sourceTree = "<group>"; };
 		6443FFE01C1484290036DD6F /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Song.m; path = Monzix/Song.m; sourceTree = "<group>"; };
+		64DD522E1C1FD46D0057302B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		64DD52301C1FD4780057302B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		64DD52321C1FD4C00057302B /* AZSoundItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZSoundItem.h; sourceTree = "<group>"; };
+		64DD52331C1FD4C00057302B /* AZSoundItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSoundItem.m; sourceTree = "<group>"; };
+		64DD52341C1FD4C00057302B /* AZSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZSoundManager.h; sourceTree = "<group>"; };
+		64DD52351C1FD4C00057302B /* AZSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSoundManager.m; sourceTree = "<group>"; };
 		64E9D6A51C15921E002FDD8E /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
 		64E9D6A61C15921E002FDD8E /* search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = search.m; sourceTree = "<group>"; };
 		64E9D6A71C15921E002FDD8E /* search.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = search.xib; sourceTree = "<group>"; };
 		64F228AD1C15C9A4005CD34E /* Song.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Song.plist; sourceTree = "<group>"; };
 		64F228AF1C15CAE8005CD34E /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		64F228B01C15CAE8005CD34E /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
-		64F228B21C15DD2D005CD34E /* PlaySong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaySong.h; sourceTree = "<group>"; };
-		64F228B31C15DD2D005CD34E /* PlaySong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaySong.m; sourceTree = "<group>"; };
+		64F228B21C15DD2D005CD34E /* PlaySongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaySongViewController.h; sourceTree = "<group>"; };
+		64F228B31C15DD2D005CD34E /* PlaySongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaySongViewController.m; sourceTree = "<group>"; };
+		64F2D93E1C1F16BA001C0CE9 /* SongListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListViewController.h; sourceTree = "<group>"; };
+		64F2D93F1C1F16BA001C0CE9 /* SongListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListViewController.m; sourceTree = "<group>"; };
+		64F2D9421C1F23D4001C0CE9 /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		64F2D9431C1F23D4001C0CE9 /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
 		A3AD42558BFC1E6984223FE8 /* Pods_Monzix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monzix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DD52311C1FD4780057302B /* MediaPlayer.framework in Frameworks */,
+				64DD522F1C1FD46D0057302B /* AVFoundation.framework in Frameworks */,
 				765B117F020D930FBA9647C7 /* Pods_Monzix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,8 +144,8 @@
 				3F0FDD8E1C0C31E500716923 /* AppDelegate.m */,
 				3F0FDD901C0C31E500716923 /* ViewController.h */,
 				3F0FDD911C0C31E500716923 /* ViewController.m */,
-				64F228B21C15DD2D005CD34E /* PlaySong.h */,
-				64F228B31C15DD2D005CD34E /* PlaySong.m */,
+				64F228B21C15DD2D005CD34E /* PlaySongViewController.h */,
+				64F228B31C15DD2D005CD34E /* PlaySongViewController.m */,
 				3F0FDD931C0C31E500716923 /* Main.storyboard */,
 				3F0FDD961C0C31E500716923 /* Assets.xcassets */,
 				3F0FDD981C0C31E500716923 /* LaunchScreen.storyboard */,
@@ -140,6 +158,12 @@
 		3F0FDD8A1C0C31E500716923 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64F2D93E1C1F16BA001C0CE9 /* SongListViewController.h */,
+				64F2D93F1C1F16BA001C0CE9 /* SongListViewController.m */,
+				64DD52321C1FD4C00057302B /* AZSoundItem.h */,
+				64DD52331C1FD4C00057302B /* AZSoundItem.m */,
+				64DD52341C1FD4C00057302B /* AZSoundManager.h */,
+				64DD52351C1FD4C00057302B /* AZSoundManager.m */,
 				3F0FDD8B1C0C31E500716923 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -213,6 +237,8 @@
 				6443FFE01C1484290036DD6F /* Song.m */,
 				64F228AF1C15CAE8005CD34E /* DataManager.h */,
 				64F228B01C15CAE8005CD34E /* DataManager.m */,
+				64F2D9421C1F23D4001C0CE9 /* Playlist.h */,
+				64F2D9431C1F23D4001C0CE9 /* Playlist.m */,
 			);
 			name = Song;
 			sourceTree = "<group>";
@@ -220,6 +246,8 @@
 		FA3F26447CBA7BEC31131EEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64DD52301C1FD4780057302B /* MediaPlayer.framework */,
+				64DD522E1C1FD46D0057302B /* AVFoundation.framework */,
 				A3AD42558BFC1E6984223FE8 /* Pods_Monzix.framework */,
 			);
 			name = Frameworks;
@@ -355,16 +383,20 @@
 			files = (
 				6443FFE11C1484290036DD6F /* Song.m in Sources */,
 				64F228B11C15CAE8005CD34E /* DataManager.m in Sources */,
-				64F228B41C15DD2D005CD34E /* PlaySong.m in Sources */,
+				64F228B41C15DD2D005CD34E /* PlaySongViewController.m in Sources */,
 				64E9D6A81C15921E002FDD8E /* search.m in Sources */,
 				3F0FDD921C0C31E500716923 /* ViewController.m in Sources */,
+				64DD52361C1FD4C00057302B /* AZSoundItem.m in Sources */,
 				3F31DBCB1C114A6200D36C4D /* CassetteRed.m in Sources */,
 				3F0FDD8F1C0C31E500716923 /* AppDelegate.m in Sources */,
 				3F31DB9D1C1133C700D36C4D /* CassetteStandard.m in Sources */,
 				3F31DBBA1C11468E00D36C4D /* CassetteYellow.m in Sources */,
+				64DD52371C1FD4C00057302B /* AZSoundManager.m in Sources */,
+				64F2D9441C1F23D4001C0CE9 /* Playlist.m in Sources */,
 				3F31DBD81C114CE100D36C4D /* CassetteOrange.m in Sources */,
 				3F31DBA91C1141C900D36C4D /* CassetteWhite.m in Sources */,
 				3F0FDD8C1C0C31E500716923 /* main.m in Sources */,
+				64F2D9401C1F16BA001C0CE9 /* SongListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +510,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Monzix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.Monzix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -492,7 +524,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Monzix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.Monzix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

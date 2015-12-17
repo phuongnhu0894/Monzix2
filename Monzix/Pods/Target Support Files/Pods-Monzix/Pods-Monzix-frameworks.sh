@@ -84,14 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-Monzix/AFNetworking.framework"
-  install_framework "Pods-Monzix/FLKAutoLayout.framework"
-  install_framework "Pods-Monzix/ORStackView.framework"
-  install_framework "Pods-Monzix/SwiftyJSON.framework"
+  install_framework "Pods-Monzix/JXHTTP.framework"
+  install_framework "Pods-Monzix/SDWebImage.framework"
+  install_framework "Pods-Monzix/Spectacles.framework"
+  install_framework "Pods-Monzix/TMTumblrSDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-Monzix/AFNetworking.framework"
-  install_framework "Pods-Monzix/FLKAutoLayout.framework"
-  install_framework "Pods-Monzix/ORStackView.framework"
-  install_framework "Pods-Monzix/SwiftyJSON.framework"
+  install_framework "Pods-Monzix/JXHTTP.framework"
+  install_framework "Pods-Monzix/SDWebImage.framework"
+  install_framework "Pods-Monzix/Spectacles.framework"
+  install_framework "Pods-Monzix/TMTumblrSDK.framework"
 fi

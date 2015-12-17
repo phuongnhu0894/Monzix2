@@ -11,7 +11,10 @@
 @interface Song : NSObject
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *artist;
+@property (strong, nonatomic) NSString *album;
 @property (nonatomic, strong) NSString *genre;
+@property (nonatomic, strong) NSString *url;
+@property (nonatomic, strong) NSString *coverArtUrl;
 
 - (id)initWithTitle:(NSString *)title andArtist:(NSString *)artist andGenre:(NSString *)genre;
 

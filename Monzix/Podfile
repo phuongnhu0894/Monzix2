@@ -1,8 +1,9 @@
 platform :ios, '8.0'
 use_frameworks!
 
-target ‘Monzix’ do
-  pod 'AFNetworking', '~> 2.6'
-  pod 'ORStackView', '~> 3.0'
-  pod 'SwiftyJSON', '~> 2.3'
+target 'Monzix' do
+    platform :ios, '5.0'
+    
+    pod 'TMTumblrSDK'
+    pod 'SDWebImage'
 end
